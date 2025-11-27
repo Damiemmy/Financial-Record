@@ -2,12 +2,13 @@ import React from "react";
 import { FaBtc, FaCcMastercard, FaPaypal } from "react-icons/fa";
 import { RiVisaLine } from "react-icons/ri";
 import Title from "./title";
+import { SiCashapp } from "react-icons/si";
 
 const data = [
   {
     name: "Crypto",
-    account: "codewave@gmail.com",
-    amount: "85,345.00",
+    account: "9519037652",
+    amount: "1210.00",
     icon: (
       <div className='w-12 h-12 bg-amber-600 text-white flex items-center justify-center rounded-full'>
         <FaBtc size={26} />
@@ -15,32 +16,12 @@ const data = [
     ),
   },
   {
-    name: "Visa Debit Card",
-    account: "2463********8473",
-    amount: "15,345.00",
+    name: "Cashapp",
+    account: "$Acosta0192",
+    amount: "810.00",
     icon: (
       <div className='w-12 h-12 bg-blue-600 text-white flex items-center justify-center rounded-full'>
-        <RiVisaLine size={26} />
-      </div>
-    ),
-  },
-  {
-    name: "MasterCard",
-    account: "6785********8473",
-    amount: "55,345.00",
-    icon: (
-      <div className='w-12 h-12 bg-rose-600 text-white flex items-center justify-center rounded-full'>
-        <FaCcMastercard size={26} />
-      </div>
-    ),
-  },
-  {
-    name: "Paypal",
-    account: "codewave@gmail.com",
-    amount: "35,345.00",
-    icon: (
-      <div className='w-12 h-12 bg-blue-700 text-white flex items-center justify-center rounded-full'>
-        <FaPaypal size={26} />
+        <SiCashapp size={26} />
       </div>
     ),
   },

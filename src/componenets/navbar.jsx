@@ -16,7 +16,7 @@ const Navbar = () => {
           <RiCurrencyLine className='text-white text-3xl hover:animate-spin' />
         </div>
         <span className='text-xl font-bold text-black dark:text-white'>
-          My-Finance
+          MEET-ME
         </span>
       </div>
 
@@ -47,10 +47,10 @@ const Navbar = () => {
           />
           <div className='hidden md:block'>
             <p className='text-lg font-medium text-black dark:text-gray-400'>
-              John Doe
+              Esteban Acosta
             </p>
             <span className='text-sm text-gray-700 dark:text-gray-500'>
-              johndoe@gmail.com
+              6135 troth st
             </span>
           </div>
           <MdOutlineKeyboardArrowDown className='hidden md:block text-2xl text-gray-600 dark:text-gray-300 cursor-pointer' />

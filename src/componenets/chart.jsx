@@ -37,8 +37,8 @@ const Chart = () => {
           <YAxis />
           <XAxis />
           <Legend />
-          <Line type='monotone' dataKey={"income"} stroke='#8884d8' />
-          <Line type='monotone' dataKey={"expense"} stroke='#82ca9d' />
+          <Line type='monotone' dataKey={"Deposit"} stroke='#8884d8' />
+          <Line type='monotone' dataKey={"Outstanding"} stroke='#82ca9d' />
         </LineChart>
       </ResponsiveContainer>
     </div>

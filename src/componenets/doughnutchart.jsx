@@ -10,8 +10,8 @@ import {
 import Title from "./title";
 
 const data = [
-  { name: "Income", value: 150020 },
-  { name: "Expense", value: 50010 },
+  { name: "Deposit", value: 150020 },
+  { name: "Outstanding", value: 50010 },
 ];
 
 const COLORS = ["#0088FE", "#FFBB28", "#FF8042", "#00C49F"];

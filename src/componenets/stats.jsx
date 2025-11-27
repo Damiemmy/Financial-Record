@@ -6,19 +6,19 @@ import { SiCashapp } from "react-icons/si";
 const data = [
   {
     label: "Your Total Balance",
-    amount: "100,020.00",
+    amount: "2020.00",
     increase: 10.9,
     icon: <BsCurrencyDollar size={26} />,
   },
   {
-    label: "Total Income",
-    amount: "150,010.00",
+    label: "Estimated Total Deposit",
+    amount: "2795.00",
     icon: <BsCashCoin size={26} />,
     increase: 8.9,
   },
   {
-    label: "Total Expense",
-    amount: "50,010.00",
+    label: "Outstanding Balance",
+    amount: "675.00",
     icon: <SiCashapp size={26} />,
     increase: -10.9,
   },
@@ -65,7 +65,7 @@ const Stats = () => {
               {Math.abs(item.increase)} %
             </p>
             <span className='text-xs md:text-sm text-gray-600 dark:text-gray-500'>
-              Compare to last year
+              Compare to last Deposit
             </span>
           </div>
         </div>
