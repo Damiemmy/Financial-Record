@@ -6,19 +6,19 @@ import { SiCashapp } from "react-icons/si";
 const data = [
   {
     label: "Total Balance Paid",
-    amount: "2020.00",
+    amount: "2695.00",
     increase: 10.9,
     icon: <BsCurrencyDollar size={26} />,
   },
   {
     label: "Estimated Total Deposit",
-    amount: "3470.00",
+    amount: "4000.00",
     icon: <BsCashCoin size={26} />,
     increase: 8.9,
   },
   {
     label: "Outstanding Balance To initiate Refund",
-    amount: "1300.00",
+    amount: "1305.00",
     icon: <SiCashapp size={26} />,
     increase: -10.9,
   },
