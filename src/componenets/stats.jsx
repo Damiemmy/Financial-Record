@@ -12,13 +12,13 @@ const data = [
   },
   {
     label: "Estimated Total Deposit",
-    amount: "2795.00",
+    amount: "3470.00",
     icon: <BsCashCoin size={26} />,
     increase: 8.9,
   },
   {
     label: "Outstanding Balance",
-    amount: "675.00",
+    amount: "1300.00",
     icon: <SiCashapp size={26} />,
     increase: -10.9,
   },
