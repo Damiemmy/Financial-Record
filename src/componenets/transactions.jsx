@@ -86,6 +86,14 @@ const data = [
     source: "Cashapp",
     amount: 400,
   },
+  {
+    date: "2025-11-24",
+    name: "Esteban Acosta",
+    contact: "+9519037652",
+    status: "Completed",
+    source: "Cashapp",
+    amount: 675,
+  },
 ];
 
 const fadeUp = {
